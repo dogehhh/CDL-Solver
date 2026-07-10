@@ -2,7 +2,7 @@
 [CVPR'26 Findings] Concise Geometric Description as a Bridge: Unleashing the Potential of LLM for Plane Geometry Problem Solving
 
 #### Data
-
+[Formalgeo-Rec-CoT]([https://drive.google.com/file/d/1FjTNj8PPGlce4xAQIXwjhi020glX3fSW/view?usp=drive_link](https://huggingface.co/datasets/bzh666/Formalgeo7k_cot_conscdl_0930)) 
 
 #### Training
 
@@ -19,7 +19,7 @@ llamafactory-cli train examples/train_full/qwen3vl_8b_full_sft.yaml
 ```python
 # We use Easy-R1 for RL stages
 cd Easy-R1
-python tools/pseudo_class.py --cfg 'config/voc_train_ori_cfg.yaml' --model 'RECLIPPP'
+bash examples/qwen3_vl_8b_formalgeo_cot_grpo.sh
 ```
 
 #### Citing
