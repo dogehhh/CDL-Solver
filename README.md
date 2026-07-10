@@ -2,7 +2,7 @@
 [CVPR'26 Findings] Concise Geometric Description as a Bridge: Unleashing the Potential of LLM for Plane Geometry Problem Solving
 
 #### Data
-[Formalgeo-Rec-CoT]([[https://drive.google.com/file/d/1FjTNj8PPGlce4xAQIXwjhi020glX3fSW/view?usp=drive_link](https://huggingface.co/datasets/bzh666/Formalgeo7k_cot_conscdl_0930)]) 
+[Formalgeo-Rec-CoT](https://huggingface.co/datasets/bzh666/Formalgeo7k_cot_conscdl_0930) 
 
 #### Training
 
